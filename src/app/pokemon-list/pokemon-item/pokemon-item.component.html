@@ -1,0 +1,14 @@
+<div *ngIf="!loading" class="card" style="width: 18rem; margin: 0; width: 20rem; height: 30rem; padding: 0;">
+    <div class="card-header text-center" [ngClass]="typeFiltredFirst">
+        <b>{{pokemonFiltrado.name}}</b>
+    </div>
+    <img class="card-img-top" src="{{pokemonFiltrado.sprites.front_default}}" alt="{{pokemon.name}}">
+    <div class="card-body" style="height: 30 rem;">
+        <div *ngFor="let types of pokemonFiltrado.types">
+            <div [ngClass]="types.type.name" style="text-align: center;">
+                {{types.type.name}}
+            </div>
+        </div>
+    </div>
+    
+</div>

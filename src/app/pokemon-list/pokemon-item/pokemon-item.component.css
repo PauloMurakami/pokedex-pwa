@@ -1,0 +1,49 @@
+.badge {
+    margin-right: 5px;
+    width: fit-content
+  }
+  
+  .border {
+    border-radius: 1rem;
+  }
+  
+  .card-img-bottom {
+    width: 45%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 51%;
+    height: 5rem;
+    object-fit: contain;
+  }
+  
+  @media (min-width: 768px) {
+    .card-img-bottom {
+      height: 8.5em; 
+    }
+  }
+  
+  .card-img-overlay {
+    padding: .75rem;
+  }
+  
+  .card {
+    cursor: pointer;
+  }
+  .grass { background-color: #28a745}
+  .poison { background-color: #20c997}
+  .fire { background-color: #fd7e14}
+  .flying { background-color: #6610f2}
+  .water { background-color: #007bff}
+  .bug { background-color: #28a745}
+  .normal { background-color: #28a745}
+  .electric { background-color: #ffc107}
+  .ground { background-color: #6c757d}
+  .fairy { background-color: #e83e8c}
+  .fighting { background-color: #dc3545}
+  .psychic { background-color: #6f42c1}
+  .rock { background-color: #8b9196}
+  .steel { background-color: #17a2b8}
+  .ice { background-color: #007bff}
+  .ghost { background-color: #76138a}
+  .dragon { background-color: #fd7e14}

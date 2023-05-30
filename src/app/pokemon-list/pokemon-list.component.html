@@ -1,0 +1,6 @@
+<div class="container" style=" width: 100%; margin-top: 10px;">
+  <div class="row">
+    <app-pokemon-item *ngFor="let pokemon of pokemons let index = index" [pokemon]="pokemon"
+      class="col-lg-4 col-md-6 col-sm-12 mt-2 d-flex justify-content-center"></app-pokemon-item>
+  </div>
+</div>
